@@ -1,0 +1,56 @@
+{
+ "window_s": 15.0,
+ "bandpass_hz": [
+  0.7,
+  3.0
+ ],
+ "method": "POS (Wang et al. 2017)",
+ "roi": "MediaPipe FaceLandmarker forehead+cheeks polygons (rppg/roi.py)",
+ "fps_nominal": 30.0,
+ "min_face_detect_frac": 0.8,
+ "min_eff_fps": 15.0,
+ "quality_threshold": 0.45,
+ "motion_px_p95_threshold": 0.334,
+ "low_light_luma_threshold": 130.97,
+ "seed": 20261204,
+ "selection_rule": "min dev worst-case MAE (abstentions=10 BPM); ties -> lowest threshold",
+ "dev_tuning_table": [
+  {
+   "threshold": 0.2,
+   "coverage": 1.0,
+   "mae_answered_bpm": 5.021880482944999,
+   "worst_case_mae_bpm": 5.021880482944999
+  },
+  {
+   "threshold": 0.25,
+   "coverage": 1.0,
+   "mae_answered_bpm": 5.021880482944999,
+   "worst_case_mae_bpm": 5.021880482944999
+  },
+  {
+   "threshold": 0.3,
+   "coverage": 1.0,
+   "mae_answered_bpm": 5.021880482944999,
+   "worst_case_mae_bpm": 5.021880482944999
+  },
+  {
+   "threshold": 0.35,
+   "coverage": 1.0,
+   "mae_answered_bpm": 5.021880482944999,
+   "worst_case_mae_bpm": 5.021880482944999
+  },
+  {
+   "threshold": 0.4,
+   "coverage": 0.975,
+   "mae_answered_bpm": 5.043921580232142,
+   "worst_case_mae_bpm": 5.167823540726338
+  },
+  {
+   "threshold": 0.45,
+   "coverage": 0.9625,
+   "mae_answered_bpm": 4.5025182100814085,
+   "worst_case_mae_bpm": 4.708673777203356
+  }
+ ],
+ "frozen_before_test_run": true
+}

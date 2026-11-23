@@ -1,0 +1,67 @@
+[
+ [
+  "title",
+  true,
+  "rppg-pulse \u2014 webcam heart-rate wellness demo"
+ ],
+ [
+  "h1 present",
+  true,
+  ""
+ ],
+ [
+  "disclaimer visible",
+  true,
+  ""
+ ],
+ [
+  "upload tab is role=tab",
+  true,
+  ""
+ ],
+ [
+  "upload flow produced result",
+  true,
+  ""
+ ],
+ [
+  "estimate near injected 72 BPM (\u00b16)",
+  true,
+  "got 72"
+ ],
+ [
+  "windows answered line",
+  true,
+  ""
+ ],
+ [
+  "no JS page errors",
+  true,
+  ""
+ ],
+ [
+  "first Tab lands on a control",
+  true,
+  "{'tag': 'BUTTON', 'outline': 'solid 3px', 'text': 'Copy table data'}"
+ ],
+ [
+  "disclaimer contrast >= 4.5",
+  true,
+  "10.31:1"
+ ],
+ [
+  "320px no horizontal overflow",
+  true,
+  "scrollWidth=320"
+ ],
+ [
+  "phone disclaimer visible",
+  true,
+  ""
+ ],
+ [
+  "320px upload tab no overflow",
+  true,
+  "scrollWidth=320"
+ ]
+]

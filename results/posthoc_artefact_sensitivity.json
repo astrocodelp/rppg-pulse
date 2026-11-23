@@ -1,0 +1,104 @@
+{
+ "dev": {
+  "rule": "mean device HR < 30 BPM flagged as likely CMS50E dropout artefact (reference-only, post-hoc)",
+  "n_artefact_windows": 0,
+  "artefact_subjects": [],
+  "primary_pos_mae_bpm": 4.5025182100814085,
+  "sensitivity_pos_mae_bpm": 4.5025182100814085,
+  "sensitivity_pos_mae_ci95": [
+   2.539367726294318,
+   7.156956230543121
+  ],
+  "sensitivity_pos_rmse_bpm": 8.387186103494614,
+  "sensitivity_pos_rmse_ci95": [
+   3.8675571973661618,
+   11.989044020570432
+  ],
+  "sensitivity_pos_coverage": 0.9625,
+  "sensitivity_pos_failure_gt10": 0.09090909090909091,
+  "sensitivity_bland_altman": {
+   "bias_bpm": 1.5663266969819494,
+   "loa_low_bpm": -14.806372044161744,
+   "loa_high_bpm": 17.939025438125643,
+   "subject_sd_bpm": 8.353417725073314,
+   "n_subjects": 21,
+   "window_bias_bpm": 0.7508817553713356,
+   "window_sd_bpm": 8.40828396657598,
+   "per_subject_bias_bpm": {
+    "subject1": 2.394551932816597,
+    "subject10": 0.0578870803377356,
+    "subject13": -0.11531319614966407,
+    "subject15": -0.8452831414259663,
+    "subject16": 1.5319724232635572,
+    "subject17": -7.9230491297088435,
+    "subject22": 1.3880350461755384,
+    "subject23": 1.905434699087417,
+    "subject26": 25.23390894213811,
+    "subject27": 25.299654647435894,
+    "subject3": -8.352602555650343,
+    "subject31": 0.08272036073375943,
+    "subject32": 0.41105236672063467,
+    "subject34": 0.00853373671020563,
+    "subject36": -0.7134107853464435,
+    "subject39": -1.8858117025101357,
+    "subject4": -4.039992012230243,
+    "subject40": -1.036837885616876,
+    "subject43": 0.5881725440357002,
+    "subject46": -1.1788511576684684,
+    "subject49": 0.08208842347277567
+   }
+  }
+ },
+ "test": {
+  "rule": "mean device HR < 30 BPM flagged as likely CMS50E dropout artefact (reference-only, post-hoc)",
+  "n_artefact_windows": 2,
+  "artefact_subjects": [
+   "subject20"
+  ],
+  "primary_pos_mae_bpm": 10.964421217528278,
+  "sensitivity_pos_mae_bpm": 8.083308625421589,
+  "sensitivity_pos_mae_ci95": [
+   4.358573048637833,
+   12.651857474057072
+  ],
+  "sensitivity_pos_rmse_bpm": 17.91408103970542,
+  "sensitivity_pos_rmse_ci95": [
+   9.496218903913151,
+   24.653046596836273
+  ],
+  "sensitivity_pos_coverage": 0.9625,
+  "sensitivity_pos_failure_gt10": 0.14285714285714285,
+  "sensitivity_bland_altman": {
+   "bias_bpm": 6.117802639156214,
+   "loa_low_bpm": -16.56367672552474,
+   "loa_high_bpm": 28.799282003837167,
+   "subject_sd_bpm": 11.572183349327018,
+   "n_subjects": 21,
+   "window_bias_bpm": 5.638841578824106,
+   "window_sd_bpm": 17.114962642857286,
+   "per_subject_bias_bpm": {
+    "subject11": 30.75057825007091,
+    "subject12": 2.823847281687721,
+    "subject14": -6.67204877070463,
+    "subject18": 18.295387587718874,
+    "subject20": 30.618621899332936,
+    "subject24": 23.221573767735816,
+    "subject25": 23.52401983615805,
+    "subject30": 5.613279007512073,
+    "subject33": -1.2150558538854668,
+    "subject35": 1.0488741501949796,
+    "subject37": -3.5200806934408853,
+    "subject38": -0.7113272073412737,
+    "subject41": 1.3475697527499904,
+    "subject42": 1.6477556591777969,
+    "subject44": -4.228496498690466,
+    "subject45": 0.6594700458231948,
+    "subject47": 0.3199604703163601,
+    "subject48": 5.028420415976697,
+    "subject5": 0.8154813382603882,
+    "subject8": 1.1459887763460088,
+    "subject9": -2.039963792718531
+   }
+  }
+ }
+}

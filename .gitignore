@@ -1,0 +1,22 @@
+# dataset videos and ground truth are NEVER committed (UBFC: research-only,
+# no published license text; do not redistribute)
+data/
+*.avi
+ground_truth.txt
+
+# caches and logs
+__pycache__/
+*.pyc
+.venv/
+*.log
+verify/rec/
+verify/card_*.mp4
+verify/demo_mid.mp4
+verify/concat.txt
+verify/demo_raw.webm
+.stellarfirm/
+verify/frame_*.png
+verify/card_*.png
+.playwright*
+scripts/_*.py
+verify/debug_*.png
