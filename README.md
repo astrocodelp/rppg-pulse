@@ -6,6 +6,8 @@
 pre-registered evaluation protocol, a subject-disjoint held-out split, error
 bars in BPM, and a limitations section that is not decoration.
 
+![rppg-pulse demo: pulse estimate from the bundled synthetic face video, with the persistent wellness disclaimer](verify/desktop_upload_result.png)
+
 **We did not hit our pre-registered accuracy target on the held-out split.**
 The frozen protocol asked: MAE ≤ 5 BPM vs a simultaneous pulse-oximeter
 reference on held-out subjects. On the 21 held-out UBFC REALISTIC subjects we
@@ -112,6 +114,16 @@ and `protocol/amendment_log.md`).
   with it — motion is our dominant failure mode, exactly as pre-registered.
 * Figures with axes in BPM and the seed on every plot: `results/figures/`;
   the underlying per-window data table is `results/windows_test.csv` / `windows_dev.csv`.
+
+**Held-out test split, at a glance** (axes in BPM, bootstrap seed 20261204):
+
+| Bland–Altman agreement (subject-level) | Estimate vs device reference (per window) |
+|---|---|
+| ![Bland-Altman plot of the held-out test split: subject-level mean difference +8.29 BPM, limits of agreement -28.11 to +44.69 BPM, axes in BPM](results/figures/bland_altman_test.png) | ![Scatter plot of camera pulse estimate vs CMS50E reference HR on the held-out test split, axes in BPM, with the identity line](results/figures/scatter_test.png) |
+
+The demo on a 320 px phone-sized screen, no horizontal overflow:
+
+<img src="verify/phone_320.png" alt="Screenshot of the rppg-pulse Gradio demo at a 320 pixel phone width: tabs, upload control and the wellness disclaimer all fit without horizontal scrolling" width="320">
 
 ### Why test is so much worse than dev — honest failure analysis
 
